@@ -1,0 +1,15 @@
+Vercel CLI 65.2.0 (Node.js 26.10.0)
+> Environment Variables found for pueblolaiza/personal_cv [715ms]
+
+ name                               value                       type      environments                created    
+ PORTFOLIO_GITHUB_USERNAME          Hidden                      Secret    Preview                     1m ago     
+ PORTFOLIO_GITHUB_USERNAME          eyJ2IjoidjIiLCJjIj…         Config    Production                  2h ago     
+ VITE_GITHUB_USERNAME               Hidden                      Secret    Production, Preview         10h ago    
+
+Next steps:
+- Add an Environment Variable:
+  vercel env add --scope pueblolaiza --global-config .vercel/cli-session
+- Remove an Environment Variable:
+  vercel env remove --scope pueblolaiza --global-config .vercel/cli-session
+- Pull Development Environment Variables into .env.local:
+  vercel env pull --scope pueblolaiza --global-config .vercel/cli-session

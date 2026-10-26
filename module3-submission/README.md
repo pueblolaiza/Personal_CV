@@ -9,7 +9,7 @@ Student: Laiza Pueblo
 - About: https://laizapueblo.vercel.app/about.html
 - Dashboard: https://vercel.com/pueblolaiza/personal_cv
 - Initial failed Preview deployment: https://vercel.com/pueblolaiza/personal_cv/6MCo5DpguX6yMc5fJgFX1TDYLXYo
-- Working Preview URL: pending verification
+- Working Preview URL: https://personal-g2cj9192q-pueblolaiza.vercel.app
 
 ## Application requirements (module page 35)
 
@@ -64,7 +64,8 @@ The actual Preview failed because `PORTFOLIO_GITHUB_USERNAME` was not available 
 - Local build with `PORTFOLIO_GITHUB_USERNAME=pueblolaiza`: passed.
 - Browser checks: no overflow at 1440, 1024, 768, 480, and 375 pixels; About page and photo load; mocked GitHub API success and HTTP 403 fallback both pass; no JavaScript page errors. Mocked counts were test-only and are not hard-coded into the portfolio.
 - Vercel Preview deployment `dpl_6MCo5DpguX6yMc5fJgFX1TDYLXYo`: failure confirmed in authenticated build logs; missing required variable in Preview scope.
-- Added the required variable to Preview; Production already had it. Existing `VITE_GITHUB_USERNAME` was retained.
+- Added the required variable to Preview; Production already had it and its value was normalized to `pueblolaiza` before release. Existing `VITE_GITHUB_USERNAME` was retained.
+- Preview `05e2432` reached Ready; `logs/preview-success.txt` records the successful static build and deployment.
 - Updated Production: pending.
 - Rollback and restoration: pending.
 
