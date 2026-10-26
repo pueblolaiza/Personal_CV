@@ -331,3 +331,35 @@ a.contact-item:hover { transform: translateY(-3px); background: var(--white); }
 .experience-details { margin: 14px 0 0; padding-left: 18px; font-size: .84rem; }
 .experience-details li + li { margin-top: 7px; }
 .info-card a:hover { color: var(--accent); text-decoration: underline; }
+
+/* Project evidence and academic previews. */
+.capstone-card { grid-column: 1 / -1; }
+.capstone-image-link { display: block; background: #510008; }
+.capstone-image { width: 100%; height: auto; }
+.capstone-image-link > span { display: block; padding: 10px 20px; color: #fff; font-size: .72rem; text-align: right; }
+.capstone-image-link:hover > span { text-decoration: underline; }
+.capstone-card .project-body { padding: 30px; }
+.capstone-card h3 { font-size: 2rem; }
+.project-subtitle { font-weight: 600; margin-bottom: 16px; max-width: 850px; }
+.capstone-card .chips { margin-top: 0; }
+.project-details { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .84rem; }
+.project-details summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+.project-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+.project-details p { margin-top: 12px; }
+.project-details ul { padding-left: 22px; }
+.project-details li + li { margin-top: 6px; }
+.academic-preview { display: grid; place-items: center; padding: 30px 45px; }
+.academic-window { width: 100%; background: var(--bg); border: 1px solid #cf9ebc; border-radius: 9px; padding: 16px 23px 22px; box-shadow: 0 15px 30px #71365722; transform: rotate(-4deg); transition: transform .25s; }
+.project-card:hover .academic-window { transform: rotate(-1deg) translateY(-3px); }
+.academic-window-bar { display: block; color: var(--accent); font-size: 7px; letter-spacing: 3px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 15px; }
+.academic-icon { color: var(--accent); font-size: 1.4rem; }
+.academic-window strong { display: block; color: var(--accent); font: 700 2.4rem/.95 'Barlow Condensed', sans-serif; }
+.academic-caption { display: block; color: var(--muted); font-size: .62rem; margin-top: 12px; }
+.crud-preview { background: #ebd9ea; }
+.creative-preview { background: #f2dce6; }
+.contact-inner .contact-location { color: var(--accent); font-size: .8rem; margin-top: 18px; }
+@media (max-width: 650px) {
+  .capstone-card .project-body { padding: 23px; }
+  .academic-preview { padding: 30px; }
+  .academic-window strong { font-size: 2rem; }
+}

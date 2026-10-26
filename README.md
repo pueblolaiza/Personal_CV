@@ -38,16 +38,15 @@ Visit `http://localhost:8000`. Python is only needed for this optional preview s
 
 ## Personalizing the Content
 Search `index.html` for `[` to locate pending content:
-- City
 - Optional year level and additional academic details
-- Actual project descriptions, technologies, screenshots, repository links, and public demo URLs
+- Project technology stacks, individual contributions, repository links, and demos where still marked
 - Certificates, training, seminars, awards, competitions, and organization involvement
 - Real activities, contributions, and dates
 - Verified LinkedIn profile URL
 
 The supplied profile, office/digital/administrative/soft skills, 2023 senior high school work immersion, DNSC education (2026), GAS senior high school education (2023), email, and phone number are included. Education years are displayed as supplied without assuming graduation status. Confirm all developing skill/tool labels and the introductory wording before applying for roles. No proficiency ratings or professional employment claims are included.
 
-Replace email text with `<a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>` once supplied. Replace pending project and LinkedIn text with real `<a>` elements only when their verified URLs are available. Use `target="_blank" rel="noopener noreferrer"` for external links. Copy the commented project card to add real work. The featured CV website is the only verified project; its preview is an HTML/CSS illustration, not a screenshot.
+Replace email text with `<a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>` once supplied. Replace pending project and LinkedIn text with real `<a>` elements only when their verified URLs are available. Use `target="_blank" rel="noopener noreferrer"` for external links. Copy the commented project card to add real work. Projects include the CV website, RiceFlow (an ongoing collaborative capstone), Airline Booking / Management System, CRUD System, and creative coursework. Academic project information and coursework were checked against https://sites.google.com/dnsc.edu.ph/laizasportfolio/ and its About and Projects pages. RiceFlow details and its overview image were supplied by Laiza. RiceFlow features are explicitly marked as planned; individual contribution and technology stack remain unconfirmed. Other project previews are HTML/CSS illustrations, not application screenshots. Location: Ilang, Davao City.
 
 Keep the original `images/profile.jpg`. For a project screenshot, add a file under `images/` and replace its preview markup with an image and descriptive alt text.
 
@@ -60,6 +59,7 @@ README.md
 images/
   profile.jpg
   favicon.svg
+  riceflow-capstone.png
 ```
 
 ## Deployment
