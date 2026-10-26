@@ -1,5 +1,15 @@
 # Laiza Pueblo – Personal CV Website
 
+## Module 3 deployment update
+
+The Module 3 implementation adds `about.html`, a public GitHub API panel, and a dependency-free Node build. **These instructions supersede the earlier buildless deployment instructions below.**
+
+Production domain: https://laizapueblo.vercel.app
+
+Set `PORTFOLIO_GITHUB_USERNAME=pueblolaiza` locally and in Vercel Preview/Production. Run `node scripts/build.mjs`; serve the generated `dist/` folder locally. `vercel.json` configures the same build and output directory on Vercel. The variable is public and is written into browser configuration; no private API token is used. `.gitignore` excludes `.env*`, `.vercel/`, and `dist/`, while retaining `.env.example`.
+
+See [the Module 3 submission record](module3-submission/README.md) for commands, required screenshots, troubleshooting, and the execution status. Pending deployment exercises are labeled explicitly.
+
 ## About
 A personal CV and portfolio for Laiza Pueblo, an Information Technology student. Created for the IT415 Personal CV Website activity, with an editorial rose palette centered on `#DB89B3`, condensed typography, and illustrated focus cards and a lightweight, buildless structure.
 

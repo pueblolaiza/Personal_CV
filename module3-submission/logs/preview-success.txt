@@ -1,0 +1,15 @@
+Vercel CLI 65.2.0 (Node.js 26.10.0)
+2026-10-26T14:50:11.374Z  Running build in Washington, D.C., USA (East) – iad1
+2026-10-26T14:50:11.375Z  Build machine configuration: 2 cores, 8 GB
+2026-10-26T14:50:11.512Z  Cloning github.com/pueblolaiza/Personal_CV (Branch: codex/module3-deployment-lab, Commit: 05e2432)
+2026-10-26T14:50:11.513Z  Previous build caches not available.
+2026-10-26T14:50:11.924Z  Cloning completed: 412.000ms
+2026-10-26T14:50:12.276Z  Running "vercel build"
+2026-10-26T14:50:12.286Z  Vercel CLI 65.1.0
+2026-10-26T14:50:12.889Z  Static build complete: dist/ — public GitHub profile @pueblolaiza
+2026-10-26T14:50:12.935Z  Build Completed in /vercel/output [130ms]
+2026-10-26T14:50:12.953Z  Deploying outputs...
+2026-10-26T14:50:13.918Z  Deployment completed
+2026-10-26T14:50:13.921Z  Creating build cache...
+2026-10-26T14:50:14.466Z  Skipping cache upload because no files were prepared
+status	● Ready

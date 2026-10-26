@@ -1,0 +1,27 @@
+Vercel CLI 65.2.0 (Node.js 26.10.0)
+> Deployments for pueblolaiza/personal_cv [366ms]
+
+  Age     Project                     Deployment                                            Status      Environment     Duration     Username        
+  27s     pueblolaiza/personal_cv     https://personal-g2cj9192q-pueblolaiza.vercel.app     ● Ready     Preview         2s           pueblolaiza     
+  4m      pueblolaiza/personal_cv     https://personal-gbr19qkuy-pueblolaiza.vercel.app     ● Error     Preview         2s           pueblolaiza     
+  7m      pueblolaiza/personal_cv     https://personal-7otc6dhyb-pueblolaiza.vercel.app     ● Error     Preview         2s           pueblolaiza     
+  3h      pueblolaiza/personal_cv     https://personal-p702hwjg7-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  4h      pueblolaiza/personal_cv     https://personal-hcd0ok2rq-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  4h      pueblolaiza/personal_cv     https://personal-b9195ppug-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  4h      pueblolaiza/personal_cv     https://personal-bmkg4hroe-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  4h      pueblolaiza/personal_cv     https://personal-niee1a0w6-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  5h      pueblolaiza/personal_cv     https://personal-nbnw3763i-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  5h      pueblolaiza/personal_cv     https://personal-fqd2ox84a-pueblolaiza.vercel.app     ● Ready     Production      2s           pueblolaiza     
+  10h     pueblolaiza/personal_cv     https://personal-892f57dk7-pueblolaiza.vercel.app     ● Ready     Production      1s           pueblolaiza     
+
+https://personal-g2cj9192q-pueblolaiza.vercel.app
+https://personal-gbr19qkuy-pueblolaiza.vercel.app
+https://personal-7otc6dhyb-pueblolaiza.vercel.app
+https://personal-p702hwjg7-pueblolaiza.vercel.app
+https://personal-hcd0ok2rq-pueblolaiza.vercel.app
+https://personal-b9195ppug-pueblolaiza.vercel.app
+https://personal-bmkg4hroe-pueblolaiza.vercel.app
+https://personal-niee1a0w6-pueblolaiza.vercel.app
+https://personal-nbnw3763i-pueblolaiza.vercel.app
+https://personal-fqd2ox84a-pueblolaiza.vercel.app
+https://personal-892f57dk7-pueblolaiza.vercel.app
