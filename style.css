@@ -401,3 +401,18 @@ a.contact-item:hover { transform: translateY(-3px); background: var(--white); }
   .riceflow-preview-copy > strong { font-size: 3.5rem; }
   .riceflow-preview-copy > p:not(.eyebrow) { margin-top: 15px; }
 }
+
+/* Public GitHub profile data, loaded without credentials. */
+.github-live-panel { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 25px; margin-top: 22px; padding: 28px; border: 1px solid var(--line); background: #fffafd99; border-radius: var(--radius); }
+.github-live-panel h3 { margin: 7px 0 10px; }
+.github-live-panel .muted { font-size: .75rem; }
+.github-live-stats { display: flex; gap: 35px; }
+.github-live-stats[hidden], [data-profile-retry][hidden] { display: none; }
+.github-live-stats > div { display: flex; flex-direction: column; text-align: center; }
+.github-live-stats strong { font: 700 2.4rem/1.1 'Barlow Condensed', sans-serif; color: var(--accent); }
+.github-live-stats span { font-size: .65rem; color: var(--muted); }
+.about-page h2 { font: 700 1.8rem/1.2 'Barlow Condensed', sans-serif; text-transform: uppercase; margin: 28px 0 14px; }
+.about-page .info-card { align-self: start; }
+.about-page-photo { width: min(100%, 280px); height: 300px; object-fit: cover; object-position: center 25%; border-radius: 100px 100px 12px 12px; margin: 0 auto 25px; }
+.about-page .button { margin-top: 25px; }
+@media (max-width: 650px) { .github-live-panel { padding: 23px; } .github-live-stats { width: 100%; justify-content: flex-start; } }
