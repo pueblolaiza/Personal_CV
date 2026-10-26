@@ -8,7 +8,8 @@ Student: Laiza Pueblo
 - Production: https://laizapueblo.vercel.app
 - About: https://laizapueblo.vercel.app/about.html
 - Dashboard: https://vercel.com/pueblolaiza/personal_cv
-- Preview URL: pending verification
+- Initial failed Preview deployment: https://vercel.com/pueblolaiza/personal_cv/6MCo5DpguX6yMc5fJgFX1TDYLXYo
+- Working Preview URL: pending verification
 
 ## Application requirements (module page 35)
 
@@ -58,8 +59,12 @@ Without `PORTFOLIO_GITHUB_USERNAME`, the build exits with a clear configuration 
 
 - Existing GitHub → Production workflow: verified in earlier project updates.
 - Current domain `laizapueblo.vercel.app`: verified in Vercel’s domain settings.
-- New module implementation and local build: awaiting command results.
-- New Preview failure and fix: pending.
+- Feature branch: `codex/module3-deployment-lab`; initial implementation commit `dfacf47`.
+- Local build without `PORTFOLIO_GITHUB_USERNAME`: failed with the intended configuration-validation message.
+- Local build with `PORTFOLIO_GITHUB_USERNAME=pueblolaiza`: passed.
+- Browser checks: no overflow at 1440, 1024, 768, 480, and 375 pixels; About page and photo load; mocked GitHub API success and HTTP 403 fallback both pass; no JavaScript page errors. Mocked counts were test-only and are not hard-coded into the portfolio.
+- Vercel Preview deployment `dpl_6MCo5DpguX6yMc5fJgFX1TDYLXYo`: GitHub’s Vercel status reports failure. Exact build-log cause and fix are pending authenticated inspection; do not infer the cause from the local test.
+- User reports the public environment variable has been added for Preview and Production.
 - Updated Production: pending.
 - Rollback and restoration: pending.
 
