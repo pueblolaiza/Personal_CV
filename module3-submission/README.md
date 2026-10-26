@@ -40,16 +40,16 @@ Use repository root, static/Other framework, build command `node scripts/build.m
 
 Save actual dashboard screenshots under `screenshots/` (excluded from Git):
 
-- [ ] Successful Production deployment and source commit
-- [ ] Preview deployment, branch, and URL
-- [ ] Deployment history
-- [ ] Failed Preview build log
-- [ ] Fixed build log
-- [ ] Environment variable and selected scopes
-- [ ] Actual rollback result
-- [ ] Intended current Production release restored afterward
+- [ ] Dashboard screenshot: successful Production deployment and source commit
+- [ ] Dashboard screenshot: Preview deployment, branch, and URL
+- [ ] Dashboard screenshot: deployment history
+- [ ] Dashboard screenshot: failed Preview build log
+- [ ] Dashboard screenshot: fixed build log
+- [ ] Dashboard screenshot: environment variable and selected scopes
+- [ ] Dashboard screenshot: rollback result
+- [ ] Dashboard screenshot: intended current Production release restored afterward
 
-Pending boxes do not represent completed actions. Never label a local failure as a Vercel failure.
+The deployment actions below are complete and supported by actual CLI logs. Dashboard screenshots remain outstanding because browser/native app control timed out. Pending screenshot boxes do not mean the deployment actions failed. Never label exported text as a dashboard screenshot.
 
 ## Planned error and solution
 
@@ -66,8 +66,24 @@ The actual Preview failed because `PORTFOLIO_GITHUB_USERNAME` was not available 
 - Vercel Preview deployment `dpl_6MCo5DpguX6yMc5fJgFX1TDYLXYo`: failure confirmed in authenticated build logs; missing required variable in Preview scope.
 - Added the required variable to Preview; Production already had it and its value was normalized to `pueblolaiza` before release. Existing `VITE_GITHUB_USERNAME` was retained.
 - Preview `05e2432` reached Ready; `logs/preview-success.txt` records the successful static build and deployment.
-- Updated Production: pending.
-- Rollback and restoration: pending.
+- Merged the reviewed branch into `main` at `7598f3e`; Production deployment `dpl_2zP1c7YjFxdEvDbdZmgtJBuyBhMp` reached Ready at https://personal-j8bjmh77z-pueblolaiza.vercel.app.
+- Verified public `/about.html` and `/site-config.js` return HTTP 200; generated configuration uses `pueblolaiza`.
+- Actual rollback succeeded to `dpl_7aea6KxoFBggZSoEWLnbNuuuV2bb` (https://personal-p702hwjg7-pueblolaiza.vercel.app).
+- Restored the new working Production with `vercel promote`; authenticated inspection confirms `laizapueblo.vercel.app` points to `dpl_2zP1c7YjFxdEvDbdZmgtJBuyBhMp`, status Ready.
+
+## Saved original CLI evidence
+
+- `logs/preview-failure.txt`: actual missing-variable build error
+- `logs/preview-success.txt`: successful fixed Preview build
+- `logs/environment-scopes.txt`: variable names and scopes (values redacted)
+- `logs/deployment-history.txt`: actual Vercel deployment listing
+- `logs/production-before.txt`: known-good target recorded before rollback
+- `logs/production-build.txt`: successful module Production build
+- `logs/rollback.txt`: rollback success result
+- `logs/restore-current-release.txt`: promotion success result
+- `logs/production-restored.txt`: restored Production status and aliases
+
+To finish the screenshot submission, open the existing project dashboard, select the named deployments above, and capture the Overview, Deployments list, Build Logs, and Environment Variables screens. No additional deployment, intentional error, or rollback is needed just to retake evidence.
 
 ## Deployment management
 
@@ -87,3 +103,7 @@ Redeploy rebuilds a version. Rollback switches Production to an earlier eligible
 8. Roll back to the previous eligible working deployment.
 9. C — CNAME is commonly used for subdomains; follow provider instructions.
 10. Preview catches faults without exposing them to Production visitors.
+
+## Live website captures
+
+The local `screenshots/` folder contains public Production website, mobile About page, and live GitHub panel captures when the final browser check succeeds. These show the actual application and are separate from the outstanding Vercel dashboard screenshots above.

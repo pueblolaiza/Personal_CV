@@ -1,0 +1,48 @@
+Vercel CLI 65.2.0 (Node.js 26.10.0)
+> Fetched deployment "personal-j8bjmh77z-pueblolaiza.vercel.app" in pueblolaiza [3s]
+
+  General
+
+    id		dpl_2zP1c7YjFxdEvDbdZmgtJBuyBhMp
+    name	personal_cv
+    target	production
+    status	● Ready
+    url		https://personal-j8bjmh77z-pueblolaiza.vercel.app
+    created	Mon Oct 26 2026 22:52:27 GMT+0800 (Philippine Standard Time) [2m ago]
+
+
+  Build Machine
+
+    requested build machine basic
+    actual assigned cores   2 vCPU (actual assignment)
+    memory                  8192 MiB
+    selection type          fixed
+    selection source        plan-default
+
+
+  Build Cache
+
+    not saved (nothing to cache)
+
+
+  Duration
+
+    build duration	3s
+    post-build duration	5s
+    billable duration	1m
+    CPU Minutes Usage	2 minutes (1m x 2vCPU)
+
+
+  Aliases
+
+    ╶ https://laizapueblo.vercel.app
+    ╶ https://personalcv-omega.vercel.app
+    ╶ https://personalcv-pueblolaiza.vercel.app
+    ╶ https://personalcv-git-main-pueblolaiza.vercel.app
+
+
+  Builds
+
+    ╶ .        [0ms]
+
+

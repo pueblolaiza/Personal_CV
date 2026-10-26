@@ -39,10 +39,10 @@ Vercel CLI 65.2.0 (Node.js 26.10.0)
     ╶ https://personalcv-omega.vercel.app
     ╶ https://personalcv-pueblolaiza.vercel.app
     ╶ https://personalcv-git-main-pueblolaiza.vercel.app
-    
+
 
   Builds
 
     ╶ .        [0ms]
-    
+
 
