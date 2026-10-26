@@ -38,14 +38,14 @@ Visit `http://localhost:8000`. Python is only needed for this optional preview s
 
 ## Personalizing the Content
 Search `index.html` for `[` to locate pending content:
-- City, email address, and optional phone number
-- College/university, year level, academic periods, senior high school, and strand
+- City
+- Optional year level and additional academic details
 - Actual project descriptions, technologies, screenshots, repository links, and public demo URLs
 - Certificates, training, seminars, awards, competitions, and organization involvement
 - Real activities, contributions, and dates
 - Verified LinkedIn profile URL
 
-The original HTML, CSS, and README were empty, so no school or contact information was available to preserve. Confirm all developing skill/tool labels and the introductory wording before applying for roles. No proficiency ratings or professional employment claims are included.
+The supplied profile, office/digital/administrative/soft skills, 2023 senior high school work immersion, DNSC education (2026), GAS senior high school education (2023), email, and phone number are included. Education years are displayed as supplied without assuming graduation status. Confirm all developing skill/tool labels and the introductory wording before applying for roles. No proficiency ratings or professional employment claims are included.
 
 Replace email text with `<a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>` once supplied. Replace pending project and LinkedIn text with real `<a>` elements only when their verified URLs are available. Use `target="_blank" rel="noopener noreferrer"` for external links. Copy the commented project card to add real work. The featured CV website is the only verified project; its preview is an HTML/CSS illustration, not a screenshot.
 
