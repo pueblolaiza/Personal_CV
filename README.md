@@ -42,11 +42,11 @@ Search `index.html` for `[` to locate pending content:
 - Project technology stacks, individual contributions, repository links, and demos where still marked
 - Additional certificates, training, seminars, awards, competitions, and organization involvement as they become available
 - Real activities, contributions, and dates
-- Verified LinkedIn profile URL
+
 
 The supplied profile, office/digital/administrative/soft skills, 2023 senior high school work immersion, DNSC education (2026), GAS senior high school education (2023), email, and phone number are included. Education years are displayed as supplied without assuming graduation status. Confirm all developing skill/tool labels and the introductory wording before applying for roles. No proficiency ratings or professional employment claims are included.
 
-Replace email text with `<a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>` once supplied. Replace pending project and LinkedIn text with real `<a>` elements only when their verified URLs are available. Use `target="_blank" rel="noopener noreferrer"` for external links. Copy the commented project card to add real work. Projects include the CV website, RiceFlow (an ongoing collaborative capstone), Airline Booking / Management System, CRUD System, and creative coursework. Academic project information and coursework were checked against https://sites.google.com/dnsc.edu.ph/laizasportfolio/ and its About and Projects pages. RiceFlow details and its overview image were supplied by Laiza. The image is cropped through CSS to show only the phone dashboard inside a rose web layout; the original file remains unchanged. RiceFlow features are explicitly marked as planned; individual contribution and technology stack remain unconfirmed. Other project previews are HTML/CSS illustrations, not application screenshots. Location: Ilang, Davao City.
+Replace email text with `<a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>` once supplied. Replace pending project and LinkedIn text with real `<a>` elements only when their verified URLs are available. Use `target="_blank" rel="noopener noreferrer"` for external links. Copy the commented project card to add real work. Projects include the CV website, RiceFlow (an ongoing collaborative capstone), Airline Booking / Management System, CRUD System, and creative coursework. Academic project information and coursework were checked against https://sites.google.com/dnsc.edu.ph/laizasportfolio/ and its About and Projects pages. RiceFlow details and its overview image were supplied by Laiza. The image is cropped through CSS to show only the phone dashboard inside a rose web layout; the original file remains unchanged. RiceFlow features are explicitly marked as planned; individual contribution and technology stack remain unconfirmed. Airline Booking and CRUD cards show their project screenshots from the image supplied by Laiza, cropped using CSS. The CV and creative coursework previews remain HTML/CSS illustrations. Location: Ilang, Davao City.
 
 Keep the original `images/profile.jpg`. For a project screenshot, add a file under `images/` and replace its preview markup with an image and descriptive alt text.
 
@@ -61,6 +61,7 @@ images/
   favicon.svg
   riceflow-capstone.png
   ccna-certificate.png
+  airline-crud-projects.png
 certificates/
   ccna-switching-routing-wireless-essentials.pdf
 ```
@@ -97,3 +98,5 @@ The original profile photo is preserved without modification. Updates are commit
 
 ## Certificate
 The Achievements section includes Laiza’s course completion certificate for CCNA: Switching, Routing, and Wireless Essentials, offered by Davao Del Norte State College through Cisco Networking Academy, completed December 1, 2025. This is a course completion record, not a claim of passing the separate CCNA certification exam. The original PDF is available from the certificate card. Remaining achievement cards use “Updates coming soon” messaging.
+
+LinkedIn: https://www.linkedin.com/in/laiza-pueblo-b051a9447/
