@@ -1,7 +1,7 @@
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
-const username = process.env.PORTFOLIO_GITHUB_USERNAME;
+const username = process.env.PORTFOLIO_GITHUB_USERNAME?.trim();
 if (!username || !/^[a-z\d](?:[a-z\d-]{0,37}[a-z\d])?$/i.test(username)) {
   console.error('Build configuration error: set PORTFOLIO_GITHUB_USERNAME to a valid GitHub username in this deployment environment.');
   process.exit(1);

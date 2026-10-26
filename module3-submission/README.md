@@ -53,7 +53,7 @@ Pending boxes do not represent completed actions. Never label a local failure as
 
 ## Planned error and solution
 
-Without `PORTFOLIO_GITHUB_USERNAME`, the build exits with a clear configuration error. Fix it by setting the public GitHub username in the correct Vercel environment and redeploying. This demonstrates that local shell values are not automatically available in the cloud. The intentional error belongs on a Preview branch.
+The actual Preview failed because `PORTFOLIO_GITHUB_USERNAME` was not available in the Preview scope. That scope had `VITE_GITHUB_USERNAME`, which is a different name. The log reports the configuration-validation error and build command exit code 1. The fix is to add `PORTFOLIO_GITHUB_USERNAME=pueblolaiza` to Preview and redeploy. Production already had the required name and was preserved. The real failed-build log is saved in `logs/preview-failure.txt`. This demonstrates both exact variable naming and environment scope without introducing broken code into Production.
 
 ## Execution record
 
@@ -63,8 +63,8 @@ Without `PORTFOLIO_GITHUB_USERNAME`, the build exits with a clear configuration 
 - Local build without `PORTFOLIO_GITHUB_USERNAME`: failed with the intended configuration-validation message.
 - Local build with `PORTFOLIO_GITHUB_USERNAME=pueblolaiza`: passed.
 - Browser checks: no overflow at 1440, 1024, 768, 480, and 375 pixels; About page and photo load; mocked GitHub API success and HTTP 403 fallback both pass; no JavaScript page errors. Mocked counts were test-only and are not hard-coded into the portfolio.
-- Vercel Preview deployment `dpl_6MCo5DpguX6yMc5fJgFX1TDYLXYo`: GitHub’s Vercel status reports failure. Exact build-log cause and fix are pending authenticated inspection; do not infer the cause from the local test.
-- User reports the public environment variable has been added for Preview and Production.
+- Vercel Preview deployment `dpl_6MCo5DpguX6yMc5fJgFX1TDYLXYo`: failure confirmed in authenticated build logs; missing required variable in Preview scope.
+- Added the required variable to Preview; Production already had it. Existing `VITE_GITHUB_USERNAME` was retained.
 - Updated Production: pending.
 - Rollback and restoration: pending.
 

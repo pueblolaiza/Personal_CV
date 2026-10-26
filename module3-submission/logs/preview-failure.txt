@@ -1,0 +1,11 @@
+Vercel CLI 65.2.0 (Node.js 26.10.0)
+2026-10-26T14:43:18.887Z  Running build in Washington, D.C., USA (East) – iad1
+2026-10-26T14:43:18.887Z  Build machine configuration: 2 cores, 8 GB
+2026-10-26T14:43:18.997Z  Cloning github.com/pueblolaiza/Personal_CV (Branch: codex/module3-deployment-lab, Commit: dfacf47)
+2026-10-26T14:43:18.998Z  Previous build caches not available.
+2026-10-26T14:43:19.455Z  Cloning completed: 458.000ms
+2026-10-26T14:43:19.777Z  Running "vercel build"
+2026-10-26T14:43:19.790Z  Vercel CLI 65.1.0
+2026-10-26T14:43:20.333Z  Build configuration error: set PORTFOLIO_GITHUB_USERNAME to a valid GitHub username in this deployment environment.
+2026-10-26T14:43:20.339Z  Error: [BUILD_UTILS_SPAWN_1] Command "node scripts/build.mjs" exited with 1
+status	● Error
